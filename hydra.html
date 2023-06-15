@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>hydra</title>
+      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="styles/hydra.css">
+      <link rel="preconnect" 
+      href="https://fonts.googleapis.com">
+      <link rel="preconnect" 
+      href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Montserrat:wght@400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+      <!--import the latest version of hydra synth-->
+      <script src="https://unpkg.com/hydra-synth"></script>
+      <!--wait til body is loaded-->
+      <script src="scripts/hydra-1.js" defer></script>
+    </head>
+<body>
+    
+
+    <canvas id="canvas-1"></canvas>
+    
+    <main>
+      <div class="header">
+        <a class="title" href="index.html">
+            may wilcher
+        </a>
+      </div>
+      <button onclick="r=1;g=0;b=1">
+        color 1
+      </button>
+      <button onclick="r=1;g=1;b=0">
+        color 2
+      </button>
+      <div class="slider-section">
+        <input type="range" value="0.9" id="mod" name="mod"
+               min="0" max="2" step="0.01" oninput="mod=this.value">
+        <label for="mod">mod</label>
+      </div>
+    </main>    
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+.h1 {
+    text-align: center; 
+    position: absolute;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.splash-name {
+    /* text-align: center; */
+    /* z-index: 1; */
+    /* position: absolute; */
+    display: block;
+    font-family: BIZ UDPGothic;
+    color: #011a1a;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  
+    /* display: inline-block; */
+    /* margin-left: 400px; */
+    /* margin-top: 150px; */
+}
+.enter-link {
+    text-align: center;
+    /* margin-left: 475px; */
+    /* margin-top: 280px; */
+}

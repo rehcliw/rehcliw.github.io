@@ -1,0 +1,42 @@
+/* palette from POLINE
+ * framboise #e71b5e 
+ * cherry picking #66061b
+ * black stallion #011a1a
+ * Diver's Eden #19767e
+ * Water Nymph #73deef
+ * Paradiso #4d8683
+ * Pine Needle #3b4c42
+ * Black Olive #393934
+ * Onyx #494846
+ * Smokescreen #59514d
+ * Wild West #76574e
+ * Cheek Red #a45250
+ */
+.title {
+    font-family: BIZ UDPGothic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #011a1a;
+    text-decoration: none;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header {
+    width: 130px;
+    background: #a45250;
+    margin-bottom: 5px;
+    border-color: #011a1a;
+    border-style: solid;
+    border-width: 2px;
+}
+body {
+    background: #393934;
+    margin-left: 15px;
+    font-family: BIZ UDPGothic;
+    color: #011a1a;
+}
+a {
+    color: #19767e;
+}
