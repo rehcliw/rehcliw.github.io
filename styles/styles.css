@@ -17,19 +17,21 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 35px;
-    color: #011a1a;
+    /* color: #011a1a; */
+    color: #ffffff;
     text-decoration: none;
     display: block;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 .header {
     width: 130px;
-    background: #a45250;
+    /* background: #a45250;
     margin-bottom: 5px;
     border-color: #011a1a;
     border-style: solid;
-    border-width: 2px;
+    border-width: 2px; */
 }
 body {
     background: #393934;
@@ -38,5 +40,7 @@ body {
     color: #011a1a;
 }
 a {
-    color: #19767e;
+    /* color: #19767e; */
+    color: white;
+    margin-left: 5px;
 }
