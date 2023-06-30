@@ -31,6 +31,7 @@
 .header {
     width: 100%;
     text-align: center;
+    margin-top: 10px;
     /* background: #a45250;
     margin-bottom: 5px;
     border-color: #011a1a;
@@ -47,5 +48,5 @@ a {
     /* color: #19767e; */
     color: white;
     text-align: left;
-    /* margin-left: 5px; */
+    margin-left: 15px;
 }
