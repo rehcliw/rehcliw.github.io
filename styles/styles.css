@@ -20,13 +20,18 @@
     /* color: #011a1a; */
     color: #ffffff;
     text-decoration: none;
-    display: block;
-    margin-left: 5px;
-    margin-right: 5px;
+    /* display: block; */
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
     margin-bottom: 10px;
+    /* width: 100%; */
+    /* left: 0px; */
+    text-align: center;
 }
 .header {
-    width: 130px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
     /* background: #a45250;
     margin-bottom: 5px;
     border-color: #011a1a;
@@ -42,5 +47,6 @@ body {
 a {
     /* color: #19767e; */
     color: white;
-    margin-left: 5px;
+    text-align: left;
+    margin-left: 15px;
 }
