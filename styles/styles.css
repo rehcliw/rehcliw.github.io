@@ -12,41 +12,112 @@
  * Wild West #76574e
  * Cheek Red #a45250
  */
-.title {
-    font-family: BIZ UDPGothic;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    /* color: #011a1a; */
-    color: #ffffff;
-    text-decoration: none;
-    /* display: block; */
-    /* margin-left: 5px; */
-    /* margin-right: 5px; */
-    margin-bottom: 10px;
-    /* width: 100%; */
-    /* left: 0px; */
-    text-align: center;
+.content {
+  display: grid;
+  place-content: center; /* Centers content horizontally and vertically */
+  width: 100vw; /* Matches the viewport width */
+  height: 100vh; /* Matches the viewport height */
+  z-index: 1; /* Ensures it appears above the canvas */
+  position: relative; /* Keeps it positioned in the normal flow */
 }
-.header {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    /* background: #a45250;
+
+.title {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-family: BIZ UDPGothic;
+  font-weight: bold;
+  font-size: 50px;
+  /* line-height: 35px; */
+  /* color: #011a1a; */
+  color: #ffffff;
+  text-decoration: none;
+  /* display: block; */
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  /* margin-bottom: 10px; */
+  /* width: 100%; */
+  /* left: 0px; */
+  /* text-align: center; */
+  padding: 0px;
+  margin: 5px;
+}
+/* .header {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  /* background: #a45250;
     margin-bottom: 5px;
     border-color: #011a1a;
     border-style: solid;
     border-width: 2px; */
+
+#canvas-0 {
+  position: fixed; /* Fixes the canvas to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  z-index: -1; /* Sends the canvas behind everything */
+  margin: 0; /* Removes any margin */
+  padding: 0; /* Removes any padding */
+  display: block; /* Ensures proper rendering */
 }
+
 body {
-    background: #393934;
-    margin-left: 15px;
-    font-family: BIZ UDPGothic;
-    color: #011a1a;
+  background: #393934; /* Background color as fallback */
+  margin: 0; /* Removes default body margins */
+  padding: 0; /* Removes default body padding */
+  overflow: hidden; /* Prevents scrollbars from appearing */
+  font-family: BIZ UDPGothic;
+  color: #011a1a;
 }
+
 a {
-    /* color: #19767e; */
-    color: white;
-    text-align: left;
-    margin-left: 15px;
+  /* color: #19767e; */
+  color: white;
+  text-align: left;
+  margin-left: 15px;
+}
+/* main { */
+/* z-index: 1;  */
+/* position: absolute; */
+/* left: 45vw; */
+/* top: 40vh; */
+/* left: 1vw; */
+/* top: 1vw; */
+/* text-align: center; */
+/* width: 100%; */
+/* left: 0px; */
+/* } */
+canvas {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+button {
+  color: #011a1a;
+  background-color: #4d8683;
+  border-color: #011a1a;
+  border-style: solid;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  font-family: BIZ UDPGothic;
+}
+button:hover {
+  cursor: pointer;
+}
+.slider-section {
+  color: #011a1a;
+  background-color: #4d8683;
+  border-color: #011a1a;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  font-size: 14px;
 }
